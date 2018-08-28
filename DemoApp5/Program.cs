@@ -16,6 +16,16 @@ namespace DemoApp5
             Console.WriteLine(res2); // 78.53…
             Udskriv("Dette er en test"); // Dette er en test
 
+
+            byte b = 255;
+            checked
+            {
+                b++;
+                b++;
+            }
+          
+            Console.WriteLine(b);
+
             Console.ReadKey();
         }
 
