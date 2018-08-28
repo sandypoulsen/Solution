@@ -33,9 +33,10 @@ namespace DemoApp9
 
         }
 
-        class Person
+        struct Person
         {
             public string navn;
+
         }
     }
 }
