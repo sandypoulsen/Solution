@@ -80,6 +80,11 @@ namespace DemoApp2
                 Console.ReadKey();
             }
         }
+
+        private (int a, int b) getTuple()
+        {
+            return (2, 3);
+        }
     }
 
     struct Person
