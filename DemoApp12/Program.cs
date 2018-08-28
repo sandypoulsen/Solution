@@ -11,16 +11,15 @@ namespace DemoApp12
         static void Main(string[] args)
         {
             Console.WriteLine(Beregninger.LægSammen(2, 3));
-            Console.WriteLine(Beregninger.TrækFra(100, 20));
+            Console.WriteLine(Beregninger.TrækFra(120, 20));
 
 
             Test(out string s);
             Console.WriteLine(s);
 
-            if(System.Diagnostics.Debugger.IsAttached)
-            {
-                Console.ReadKey();
-            }
+            
+            Console.ReadKey();
+
         }
 
         static void Test(out string s)
